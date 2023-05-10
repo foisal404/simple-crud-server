@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 
-
+//dont push password in git
 const uri = "mongodb+srv://foisalahmmed2:<password>@cluster0.pxrxjz6.mongodb.net/?retryWrites=true&w=majority";
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
